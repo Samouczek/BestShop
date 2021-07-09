@@ -7,11 +7,13 @@
     --color-grey: #A5A5A5;
     --color-light-grey: #F7F7F7;
     --color-white: #FFFFFF;
-    --font-raleway:Raleway;
-    --font-open-sans-light: Open Sans;
+    --font-raleway:'Raleway',sans-serif;
+    --font-open-sans: 'Open Sans',sans-serif;
     --height-header: 70px;
     --margin-header-navigation-menu-item: 20px;
     --padding-header-navigation-menu-item: 20px;
+    --font-size-primary: 16px;
+    --line-heigh-primary: 22px;
 }
 
 body{
@@ -23,9 +25,11 @@ body{
     max-width: 1352px;
 }
 
+/*Header*/
+
 header{
     background-color: var(--color-white);
-    box-shadow: 0px 3px 6px #00000029;;
+    box-shadow: 0 3px 6px #00000029;;
 }
 
 .header{
@@ -56,13 +60,18 @@ li.nav-menu_item{
 .nav-menu_item>a{
     text-decoration: none;
     color: var(--color-grey);
+    text-transform: uppercase;
+    font-family: var(--font-open-sans);
+    font-weight: bold;
 }
 
 .nav-menu_item>a:hover{
     color: var(--color-black);
+    cursor: pointer;
 }
 li.nav-menu_item:hover{
     border-bottom: 4px solid var(--color-primary) ;
+    cursor: pointer;
 }
 
 .header-logo{
@@ -75,4 +84,53 @@ li.nav-menu_item:hover{
     font-weight: 300;
 }
 
+/*Opening section*/
+section{
+    background-image: url("../assets/Background.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.opening-section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom:100px;
+}
+
+.opening-section_title{
+    font-size: 49px;
+    font-family: var(--font-raleway);
+    font-weight: 400;
+    line-height: 57px;
+    color: var(--color-black);
+    margin-bottom: 20px;
+}
+
+.opening-section_text{
+    font-size: var(--font-size-primary);
+    font-family: var(--font-open-sans);
+    line-height: var(--line-heigh-primary);
+    color: var(--color-black);
+    margin-bottom: 38px;
+}
+
+.opening-section_btn{
+    width: 440px;
+    height: 67px;
+    font-size: var(--font-size-primary);
+    font-family: var(--font-open-sans);
+    font-weight: bold;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    margin-bottom: 508px;
+}
+
+.opening-section_btn:hover{
+    cursor: pointer;
+}
 
