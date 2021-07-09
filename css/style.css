@@ -7,16 +7,14 @@
     --color-grey: #A5A5A5;
     --color-light-grey: #F7F7F7;
     --color-white: #FFFFFF;
-    --font-raleway-300:Raleway 300;
-    --font-raleway-400:Raleway 400;
-    --font-raleway-700:Raleway 700;
-    --font-raleway-800:Raleway 700;
-    --font-open-sans-300: Open Sans 300;
-    --font-open-sans-400: Open Sans 400;
-    --font-open-sans-700: Open Sans 700;
+    --font-raleway:Raleway;
+    --font-open-sans-light: Open Sans;
+    --height-header: 70px;
+    --margin-header-navigation-menu-item: 20px;
+    --padding-header-navigation-menu-item: 20px;
 }
 
-bod{
+body{
     box-sizing: border-box;
 }
 
@@ -24,4 +22,54 @@ bod{
     margin: 0 auto;
     max-width: 1352px;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-white);
+    height: var(--height-header);
+    box-shadow: 0px 3px 6px #00000029;;
+}
+
+.navigation{
+    align-self: center;
+    justify-self: center;
+}
+ul.nav-menu{
+    display: inline;
+}
+
+li.nav-menu_item{
+    list-style: none;
+    font-size: 11px;
+    line-height: 15px;
+    display: inline;
+    white-space: nowrap;
+    padding: var(--padding-header-navigation-menu-item);
+    margin: var(--margin-header-navigation-menu-item);
+
+}
+
+.nav-menu_item>a{
+    text-decoration: none;
+    color: var(--color-grey);
+}
+
+.nav-menu_item>a:hover{
+    color: var(--color-black);
+}
+li.nav-menu_item:hover{
+    border-bottom: 4px solid var(--color-primary) ;
+}
+
+.header-logo{
+    justify-self: flex-start;
+    align-self: center;
+    color: var(--color-primary);
+    font-size: 32px;
+    line-height: 37px;
+    font-family: var(--font-raleway);
+    font-weight: 300;
+}
+
 
