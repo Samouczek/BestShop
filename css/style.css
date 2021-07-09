@@ -1,0 +1,27 @@
+:root{
+    --color-primary: #08A6E4;
+    --color-primary-shadow: rgba(7,172,230,0.16);
+    --color-redish: #FB#B64;
+    --color-green: #55DFB4;
+    --color-black: #000000;
+    --color-grey: #A5A5A5;
+    --color-light-grey: #F7F7F7;
+    --color-white: #FFFFFF;
+    --font-raleway-300:Raleway 300;
+    --font-raleway-400:Raleway 400;
+    --font-raleway-700:Raleway 700;
+    --font-raleway-800:Raleway 700;
+    --font-open-sans-300: Open Sans 300;
+    --font-open-sans-400: Open Sans 400;
+    --font-open-sans-700: Open Sans 700;
+}
+
+bod{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1352px;
+}
+
