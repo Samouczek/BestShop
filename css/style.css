@@ -10,6 +10,7 @@
     --font-raleway:'Raleway',sans-serif;
     --font-open-sans: 'Open Sans',sans-serif;
     --height-header: 70px;
+    --height-footer: 89px;
     --margin-header-navigation-menu-item: 20px;
     --padding-header-navigation-menu-item: 20px;
     --font-size-primary: 16px;
@@ -221,4 +222,164 @@ li.nav-menu_item:hover{
     top: 8px;
 }
 
+/*benefits*/
 
+.benefits-section{
+    background-color: var(--color-light-grey);
+}
+
+.benefits-section>.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits{
+    width: 85%;
+}
+
+.benefits-first-part,
+.benefits-second-part,
+.benefits-third-part{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    height: 370px;
+
+}
+
+.benefits-first-part,
+.benefits-second-part {
+    background-color: var(--color-white);
+    border: 1px solid #E8E9ED;
+}
+
+.benefits-first-part{
+    margin-top: 106px;
+}
+
+.benefits-second-part{
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+.benefit-photo-macobook{
+    width: 369px;
+    height: 218px;
+    margin: 30px;
+}
+
+.benefits-content-first-part{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 35px;
+}
+
+.benefit-text-second,
+.benefit-text-first{
+    width: 416px;
+}
+
+.benefit-title{
+    color: var(--color-black);
+    font-size: 36px;
+    line-height: 42px;
+    font-family: var(--font-raleway);
+    font-weight: 400;
+}
+
+.benefit-text{
+    font-size: var(--font-size-primary);
+    line-height: var(--line-heigh-primary);
+    color: var(--color-black);
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    width: 100%;
+}
+
+.benefits-content-second-part{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.benefit-photo-iphone {
+    width: 426px;
+    height: 328px;
+    margin: 30px;
+}
+
+.benefit-photo-trumpet{
+    background-color: var(--color-green);
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+    height: 370px;
+    width: 440px;
+}
+
+.benefits-content-third-part{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 1px solid #E8E9ED;
+    background-color: var(--color-white);
+    width: 624px;
+    height: 370px;
+    padding-left: 35px;
+}
+
+
+
+/*footer*/
+
+footer{
+ background-color: var(--color-light-grey);
+    box-shadow: 0 -5px 40px #00000029;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: var(--height-footer);
+    align-items: center;
+}
+
+
+.footer-logo{
+    color: var(--color-primary);
+    font-size: 26px;
+    font-family: var(--font-raleway);
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    margin: 20px 0 5px 0 ;
+}
+
+.footer-left-part{
+    width: 100%;
+    align-items: center;
+    justify-self: center;
+}
+.footer-left-part>p{
+    color: var(--color-grey);
+    font-size: 11px;
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+}
+
+.footer-right-part{
+    display: flex;
+}
+
+.twitter-icon,
+.facebook-icon{
+    margin: 10px;
+}
