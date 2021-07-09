@@ -1,7 +1,7 @@
 :root{
     --color-primary: #08A6E4;
     --color-primary-shadow: rgba(7,172,230,0.16);
-    --color-redish: #FB#B64;
+    --color-redish: #FB3B64;
     --color-green: #55DFB4;
     --color-black: #000000;
     --color-grey: #A5A5A5;
@@ -85,7 +85,7 @@ li.nav-menu_item:hover{
 }
 
 /*Opening section*/
-section{
+.opening-section{
     background-image: url("../assets/Background.png");
     background-size: auto;
     background-repeat: no-repeat;
@@ -133,4 +133,92 @@ section{
 .opening-section_btn:hover{
     cursor: pointer;
 }
+
+/*Statistic section*/
+
+.statistic-section-content{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 15%;
+}
+
+.statistic-section-text{
+    display: flex;
+    width: 100%;
+   justify-content: space-around;
+}
+
+.statistic-section_title{
+    font-family: var(--font-raleway);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--color-black);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.statistic-number{
+    color:var(--color-black);
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    font-family: var(--font-raleway);
+    font-weight: 800;
+    letter-spacing: 6px;
+    margin-bottom: 19px;
+}
+
+.statistic-text{
+    color: var(--color-grey);
+    font-size: 17px;
+    line-height: 20px;
+    font-family: var(--font-raleway);
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+}
+
+.statistic-photo-background{
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.static-bg-first{
+    background-color: var(--color-redish);
+}
+.statistic-first-photo{
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+
+.static-bg-second{
+    background-color: var(--color-primary);
+}
+.statistic-second-photo{
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+
+.static-bg-third{
+    background-color: var(--color-green);
+}
+.statistic-third-photo{
+    position: relative;
+    left: 28px;
+    top: 8px;
+}
+
 
