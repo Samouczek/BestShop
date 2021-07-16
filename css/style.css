@@ -156,6 +156,7 @@ li.nav-menu_item:hover{
     align-items: center;
     justify-content: flex-end;
     width: 15%;
+    position: relative;
 }
 
 .statistic-section-text{
@@ -184,6 +185,8 @@ li.nav-menu_item:hover{
     font-weight: 800;
     letter-spacing: 6px;
     margin-bottom: 19px;
+    position: absolute;
+    bottom: 2rem;
 }
 
 .statistic-text{
@@ -193,7 +196,9 @@ li.nav-menu_item:hover{
     font-family: var(--font-raleway);
     font-weight: 400;
     text-align: center;
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
 }
 
 .statistic-photo-background{
@@ -360,6 +365,7 @@ li.nav-menu_item:hover{
 .pricing-content{
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .pricing-title{
@@ -383,7 +389,7 @@ li.nav-menu_item:hover{
 .parameter-support,
 .price,
 .pricing-subtitle,
-.pricing-btn
+.pricing-btn,
 .price_limited{
     align-self: center;
 }
@@ -496,6 +502,142 @@ li.nav-menu_item:hover{
 .pricing-content-basic > .parameter-support::before,
 .pricing-content-professional > .parameter-support::before{
     content: url("../assets/Close.svg");
+}
+
+/*contact*/
+.contact-section-content{
+    display: flex;
+    margin-top: 55px;
+    margin-bottom: 59px;
+    width: 56rem;
+}
+
+.contact-first-part,
+.contact-second-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.contact-agree{
+    font-size: 12px;
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    line-height: 17px;
+    color: #707070;
+}
+
+.contact-title{
+    margin: 0;
+    font-family: var(--font-raleway);
+    font-size: 49px;
+    text-align: left;
+    line-height: 57px;
+    color: var(--color-black);
+}
+
+.contact-text {
+    font-family: var(--font-raleway);
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    color: var(--color-black);
+}
+
+.contact-data{
+    font-size: 16px;
+    font-family: var(--font-open-sans);
+    line-height: 22px;
+    text-align: left;
+    color: var(--color-grey);
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7.5rem;
+    position: relative;
+}
+
+.contact-mail,
+.contact-phone{
+    align-self: center;
+}
+
+.contact-mail:before{
+    content: url("../assets/Mail Icon.svg");
+    text-align: left;
+    width: 1.7rem ;
+    height: 1.7rem;
+    align-self: center;
+}
+
+.contact-phone:before{
+    content: url("../assets/Phone Icon.svg");
+    width: 1.7rem ;
+    height: 1.7rem;
+    align-self: center;
+}
+
+.contact-btn{
+    background-color: var(--color-primary);
+    width: 226px;
+    height: 57px;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 35px;
+    border: 0;
+    position: relative;
+    right: 0;
+    color: var(--color-white);
+    font-size: 13px;
+    font-family: var(--font-open-sans);
+    font-weight: 700;
+    line-height: 18px;
+    align-self: flex-end;
+}
+
+.contact-give-name,
+.contact-give-email{
+    height:4rem;
+    width: 27.5rem;
+    border: 0;
+    border-bottom: 1px solid var(--color-grey);
+}
+
+.contact-give-email::placeholder,
+.contact-give-name::placeholder{
+    text-transform: uppercase;
+    color: var(--color-primary);
+    font-size: 11px;
+    text-align: left;
+    line-height: 15px;
+    font-weight: 700;
+    font-family: var(--font-open-sans);
+    letter-spacing: 3.28px;
+}
+
+.contact-agree{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-agree>p{
+    margin: 0;
+}
+
+
+.contact-checkbox{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.contact-checkbox:before{
+    content: url("../assets/Checkmark.svg");
+    width:  1rem;
+    height: 1rem;
+    position:absolute;
+    top: 0.6em;
+    left:0.6rem;
 }
 
 
