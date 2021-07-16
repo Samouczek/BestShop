@@ -133,6 +133,11 @@ li.nav-menu_item:hover{
     border: 0;
 }
 
+.btn:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
 .opening-section_btn > a{
     text-decoration: none;
     color: var(--color-white);
@@ -601,6 +606,25 @@ li.nav-menu_item:hover{
     width: 27.5rem;
     border: 0;
     border-bottom: 1px solid var(--color-grey);
+    outline: none;
+    color: var(--color-grey);
+    font-family: var(--font-open-sans);
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+
+.contact-give-name:focus,
+.contact-give-email:focus{
+    background: var(--color-light-grey);
+    color: var(--color-black);
+    font-family: var(--font-open-sans);
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.5rem;
+    font-weight: 700;
+
 }
 
 .contact-give-email::placeholder,
