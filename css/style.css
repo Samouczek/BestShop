@@ -303,10 +303,10 @@ li.nav-menu_item{
 }
 
 .background-macbook{
-        content: " ";
-        width: 11.25rem;
-        height: 11.25rem;
-        background-color: var(--color-redish);
+    content: " ";
+    width: 11.25rem;
+    height: 11.25rem;
+    background-color: var(--color-redish);
     transform: rotate(45deg);
     border-radius: 41px;
     position: absolute;
@@ -742,7 +742,7 @@ li.nav-menu_item{
 /*footer*/
 
 footer{
- background-color: var(--color-light-grey);
+    background-color: var(--color-light-grey);
     box-shadow: 0 -5px 40px #00000029;
 }
 
