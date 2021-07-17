@@ -65,14 +65,12 @@ li.nav-menu_item{
     text-transform: uppercase;
     font-family: var(--font-open-sans);
     font-weight: bold;
+    padding: 28px 18px 22px;
 }
 
 .nav-menu_item>a:hover{
     color: var(--color-black);
-    cursor: pointer;
-}
-li.nav-menu_item:hover{
-    border-bottom: 4px solid var(--color-primary) ;
+    border-bottom: 4px solid var(--color-primary);
     cursor: pointer;
 }
 
