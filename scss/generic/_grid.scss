@@ -1,3 +1,45 @@
+@use "sass:math";
 
+$columns: 12;
+$column-base-width: 100% / $columns;  // math.div(100%, $columns)
 
+.row{
+  display: flex;
+  flex-wrap: wrap;
 
+  [class*='col-'] {
+    min-height: 1px;
+    width: $column-base-width;
+    padding: 0.75rem;
+  }
+
+  @for $i from 1 through $columns{
+    .col-xs-#{$i}{
+      width: $column-base-width * $i;
+    }
+  }
+
+  @for $i from 1 through $columns{
+    .col-sm-#{$i}{
+      @media (min-width: $breakpoint-sm) {
+        width: $column-base-width * $i;
+      }
+    }
+  }
+  @for $i from 1 through $columns{
+    .col-md-#{$i}{
+      @media (min-width: $breakpoint-md) {
+        width: $column-base-width * $i;
+      }
+    }
+  }
+
+  @for $i from 1 through $columns{
+    .col-lg-#{$i}{
+      @media (min-width: $breakpoint-lg) {
+        width: $column-base-width * $i;
+      }
+    }
+  }
+
+}

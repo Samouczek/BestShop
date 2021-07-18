@@ -5,10 +5,11 @@ body{
 
 .container{
   margin: 0 auto;
-  width: $breakpoint-main;
+  width: $breakpoint-xl;
+  padding: 0 15px;
 
-  @media (max-width: $breakpoint-main) {
+  @media (max-width: $breakpoint-xl) {
         width: 100%;
-        padding: 0 15px;
+
   }
 }
