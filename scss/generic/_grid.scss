@@ -42,4 +42,12 @@ $column-base-width: 100% / $columns;  // math.div(100%, $columns)
     }
   }
 
+  @for $i from 1 through $columns{
+    .col-xl-#{$i}{
+      @media (min-width: $breakpoint-xl) {
+        width: $column-base-width * $i;
+      }
+    }
+  }
+
 }
