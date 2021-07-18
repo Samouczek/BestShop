@@ -1,0 +1,22 @@
+
+header{
+  background-color: $color-white;
+  box-shadow: 0 3px 6px #00000029;;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+
+.header-logo{
+  justify-self: flex-start;
+  align-self: center;
+  color: $color-primary;
+  font-size: 32px;
+  line-height: 37px;
+  font-family: $font-raleway;
+  font-weight: 300;
+}

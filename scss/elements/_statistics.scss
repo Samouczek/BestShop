@@ -1,0 +1,100 @@
+
+.statistic-section-content{
+  display: block;
+  height: 33.19rem;
+}
+
+.statistic-section_title{
+  font-family: $font-raleway;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: $color-black;
+  text-align: center;
+  margin-bottom: 6.26rem;
+  margin-top: 6.25rem;
+}
+
+.statistic-section-text{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 7.5rem;
+}
+
+.numbers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 8rem;
+  position: relative;
+}
+
+.statistic-img{
+  height: 3.92rem;
+  width: 4rem;
+  position: relative;
+}
+
+.statistic-photo-background{
+  height: 3.938rem;
+  width: 3.938rem;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.static-bg-first{
+  background-color: $color-redish;
+}
+.statistic-first-photo{
+  position: absolute;
+  left: 30px;
+  top: 5px;
+}
+
+.static-bg-second{
+  background-color: $color-primary;
+}
+.statistic-second-photo{
+  position: relative;
+  left: 20px;
+  top: 15px;
+}
+
+.static-bg-third{
+  background-color: $color-green;
+}
+.statistic-third-photo{
+  position: relative;
+  left: 28px;
+  top: 8px;
+}
+
+
+.statistic-number{
+  color:$color-black;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  font-family: $font-raleway;
+  font-weight: 800;
+  letter-spacing: 6px;
+  margin-top: 0.89rem;
+  margin-bottom: 1.19rem;
+  /*position: absolute;*/
+  /*top:5rem;*/
+}
+
+.statistic-text{
+  color: $color-grey;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: $font-raleway;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  /*position: absolute;*/
+  /*top: 7rem;*/
+}

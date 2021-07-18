@@ -1,0 +1,14 @@
+
+body{
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0 auto;
+  width: $breakpoint-main;
+
+  @media (max-width: $breakpoint-main) {
+        width: 100%;
+        padding: 0 15px;
+  }
+}

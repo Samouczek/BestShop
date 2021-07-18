@@ -1,0 +1,155 @@
+
+.contact-section-content{
+  display: flex;
+  margin-top: 55px;
+  margin-bottom: 59px;
+  width: 56rem;
+}
+
+.contact-first-part,
+.contact-second-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.contact-agree{
+  font-size: 12px;
+  font-family: $font-open-sans;
+  font-weight: 400;
+  line-height: 17px;
+  color: #707070;
+}
+
+.contact-title{
+  margin: 0;
+  font-family: $font-raleway;
+  font-size: 49px;
+  text-align: left;
+  line-height: 57px;
+  color: $color-black;
+}
+
+.contact-text {
+  font-family: $font-raleway;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  color: $color-black;
+}
+
+.contact-data{
+  font-size: 16px;
+  font-family: $font-open-sans;
+  line-height: 22px;
+  text-align: left;
+  color: $color-grey;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 7.5rem;
+  position: relative;
+}
+
+.contact-mail,
+.contact-phone{
+  align-self: center;
+}
+
+.contact-mail:before{
+  content: url("../../assets/Mail Icon.svg");
+  text-align: left;
+  width: 1.7rem ;
+  height: 1.7rem;
+  align-self: center;
+}
+
+.contact-phone:before{
+  content: url("../../assets/Phone Icon.svg");
+  width: 1.7rem ;
+  height: 1.7rem;
+  align-self: center;
+}
+
+.contact-btn{
+  background-color: $color-primary;
+  width: 226px;
+  height: 57px;
+  box-shadow: 5px 10px 14px #07ACE629;
+  border-radius: 35px;
+  border: 0;
+  position: relative;
+  right: 0;
+  color: $color-white;
+  font-size: 13px;
+  font-family: $font-open-sans;
+  font-weight: 700;
+  line-height: 18px;
+  align-self: flex-end;
+}
+
+.contact-give-name,
+.contact-give-email{
+  height:4rem;
+  width: 27.5rem;
+  border: 0;
+  border-bottom: 1px solid $color-grey;
+  outline: none;
+  color: $color-grey;
+  font-family: $font-open-sans;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+
+.contact-give-name:focus,
+.contact-give-email:focus{
+  background: $color-light-grey;
+  color: $color-black;
+  font-family: $font-open-sans;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.5rem;
+  font-weight: 700;
+
+}
+
+.contact-give-email::placeholder,
+.contact-give-name::placeholder{
+  text-transform: uppercase;
+  color: $color-primary;
+  font-size: 11px;
+  text-align: left;
+  line-height: 15px;
+  font-weight: 700;
+  font-family: $font-open-sans;
+  letter-spacing: 3.28px;
+}
+
+.contact-agree{
+  position: relative;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-agree>p{
+  margin: 0;
+}
+
+
+.contact-checkbox{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.contact-checkbox:before{
+  content: url("../../assets/Checkmark.svg");
+  width:  1rem;
+  height: 1rem;
+  position:absolute;
+  top: 0.6em;
+  left:0.6rem;
+}
+

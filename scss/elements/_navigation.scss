@@ -1,0 +1,34 @@
+
+.navigation{
+  align-self: center;
+  justify-self: center;
+}
+ul.nav-menu{
+  display: inline;
+}
+
+li.nav-menu_item{
+  list-style: none;
+  font-size: 11px;
+  line-height: 15px;
+  display: inline;
+  white-space: nowrap;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+.nav-menu_item>a{
+  text-decoration: none;
+  color: $color-grey;
+  text-transform: uppercase;
+  font-family: $font-open-sans;
+  font-weight: bold;
+  padding: 28px 18px 22px;
+}
+
+.nav-menu_item>a:hover{
+  color: $color-black;
+  border-bottom: 4px solid $color-primary;
+  cursor: pointer;
+}

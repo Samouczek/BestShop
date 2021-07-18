@@ -1,0 +1,46 @@
+
+footer{
+  background-color: $color-light-grey;
+  box-shadow: 0 -5px 40px #00000029;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  height: 89px;
+  align-items: center;
+}
+
+
+.footer-logo{
+  color: $color-primary;
+  font-size: 26px;
+  font-family: $font-raleway;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  margin: 20px 0 5px 0 ;
+}
+
+.footer-left-part{
+  width: 100%;
+  align-items: center;
+  justify-self: center;
+}
+.footer-left-part>p{
+  color: $color-grey;
+  font-size: 11px;
+  font-family: $font-open-sans;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+}
+
+.footer-right-part{
+  display: flex;
+}
+
+.twitter-icon,
+.facebook-icon{
+  margin: 10px;
+}
