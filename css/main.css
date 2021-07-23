@@ -762,20 +762,20 @@ ul.nav-menu {
 
 li.nav-menu_item {
   list-style: none;
-  font-size: 11px;
+  font-size: 0.688rem;
   display: inline;
   white-space: nowrap;
-  padding: 20px;
-  margin: 20px;
+  padding: 1.25rem;
+  margin: 1.25rem;
 }
 
 .nav-menu_item > a {
-  padding: 28px 18px 22px;
+  padding: 1.75rem 1.125rem 1.375rem;
 }
 
 .nav-menu_item > a:hover {
   color: #000000;
-  border-bottom: 4px solid #08A6E4;
+  border-bottom: 0.25rem solid #08A6E4;
   cursor: pointer;
 }
 
