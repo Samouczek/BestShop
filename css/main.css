@@ -846,8 +846,8 @@ li.nav-menu_item {
 .statistic-section_title {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
   color: #000000;
   text-align: center;
   margin-bottom: 6.26rem;
@@ -890,8 +890,8 @@ li.nav-menu_item {
 
 .statistic-first-photo {
   position: absolute;
-  left: 30px;
-  top: 5px;
+  left: 1.875rem;
+  top: 3.13rem;
 }
 
 .static-bg-second {
@@ -900,8 +900,8 @@ li.nav-menu_item {
 
 .statistic-second-photo {
   position: relative;
-  left: 20px;
-  top: 15px;
+  left: 1.25rem;
+  top: 0.938rem;
 }
 
 .static-bg-third {
@@ -910,18 +910,18 @@ li.nav-menu_item {
 
 .statistic-third-photo {
   position: relative;
-  left: 28px;
-  top: 8px;
+  left: 1.75rem;
+  top: 0.5rem;
 }
 
 .statistic-number {
   color: #000000;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
-  letter-spacing: 6px;
+  letter-spacing: 0.375rem;
   margin-top: 0.89rem;
   margin-bottom: 1.19rem;
   /*position: absolute;*/
@@ -930,8 +930,8 @@ li.nav-menu_item {
 
 .statistic-text {
   color: #A5A5A5;
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 1.063rem;
+  line-height: 1.25rem;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   text-align: center;
