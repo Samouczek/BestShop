@@ -959,7 +959,7 @@ li.nav-menu_item {
 .benefits-third-part {
   display: flex;
   justify-content: space-between;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   height: 23.125rem;
 }
 
@@ -998,7 +998,7 @@ li.nav-menu_item {
   height: 11.25rem;
   background-color: #FB3B64;
   transform: rotate(45deg);
-  border-radius: 41px;
+  border-radius: 2.563rem;
   position: absolute;
   z-index: 1;
   top: 4rem;
@@ -1017,7 +1017,7 @@ li.nav-menu_item {
 .border-bottom-first {
   height: 1px;
   width: 20.48rem;
-  border-bottom: 4px solid #FB3B64;
+  border-bottom: 0.25rem solid #FB3B64;
 }
 
 .benefits-content-second-part {
@@ -1031,8 +1031,8 @@ li.nav-menu_item {
 
 .benefit-photo-iphone {
   align-self: flex-end;
-  width: 426px;
-  height: 328px;
+  width: 26.625rem;
+  height: 20.5rem;
   margin-left: 6rem;
   margin-bottom: 0.82rem;
   z-index: 2;
@@ -1054,13 +1054,13 @@ li.nav-menu_item {
 .border-bottom-second {
   height: 1px;
   width: 20.48rem;
-  border-bottom: 4px solid #08A6E4;
+  border-bottom: 0.25rem solid #08A6E4;
 }
 
 .benefit-photo-trumpet {
   background-color: #55DFB4;
   border: 1px solid #E8E9ED;
-  border-radius: 5px;
+  border-radius: 0.312rem;
   height: 23.125rem;
   width: 27.5rem;
 }
@@ -1088,7 +1088,7 @@ li.nav-menu_item {
 .border-bottom-third {
   height: 1px;
   width: 20.48rem;
-  border-bottom: 4px solid #55DFB4;
+  border-bottom: 0.25rem solid #55DFB4;
   margin-left: 2.2rem;
 }
 
@@ -1447,24 +1447,24 @@ li.nav-menu_item {
 
 footer {
   background-color: #F7F7F7;
-  box-shadow: 0 -5px 40px #00000029;
+  box-shadow: 0 -0.313rem 2.5rem #00000029;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  height: 89px;
+  height: 5.563rem;
   align-items: center;
 }
 
 .footer-logo {
   color: #08A6E4;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 1.875rem;
   text-align: left;
-  margin: 20px 0 5px 0;
+  margin: 1.25rem 0 0.313rem 0;
 }
 
 .footer-left-part {
@@ -1475,10 +1475,10 @@ footer {
 
 .footer-left-part > p {
   color: #A5A5A5;
-  font-size: 11px;
+  font-size: 0.688rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  line-height: 15px;
+  line-height: 0.938rem;
   text-align: left;
 }
 
@@ -1488,6 +1488,6 @@ footer {
 
 .twitter-icon,
 .facebook-icon {
-  margin: 10px;
+  margin: 0.625rem;
 }
 /*# sourceMappingURL=main.css.map */

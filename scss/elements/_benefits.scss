@@ -18,7 +18,7 @@
 .benefits-third-part{
   display: flex;
   justify-content: space-between;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   height: 23.125rem;
 
 }
@@ -60,7 +60,7 @@
   height: 11.25rem;
   background-color: $color-redish;
   transform: rotate(45deg);
-  border-radius: 41px;
+  border-radius: 2.563rem;
   position: absolute;
   z-index: 1;
   top:4rem;
@@ -80,7 +80,7 @@
 .border-bottom-first{
   height: 1px;
   width: 20.48rem;
-  border-bottom: 4px solid $color-redish;
+  border-bottom: 0.25rem solid $color-redish;
 }
 
 .benefits-content-second-part{
@@ -94,8 +94,8 @@
 
 .benefit-photo-iphone {
   align-self: flex-end;
-  width: 426px;
-  height: 328px;
+  width: 26.625rem;
+  height: 20.5rem;
   margin-left: 6rem;
   margin-bottom: 0.82rem;
   z-index: 2;
@@ -117,13 +117,13 @@
 .border-bottom-second{
   height: 1px;
   width: 20.48rem;
-  border-bottom: 4px solid $color-primary;
+  border-bottom: 0.25rem solid $color-primary;
 }
 
 .benefit-photo-trumpet{
   background-color: $color-green;
   border: 1px solid #E8E9ED;
-  border-radius: 5px;
+  border-radius: 0.312rem;
   height: 23.125rem;
   width: 27.5rem;
 }
@@ -151,7 +151,7 @@
 .border-bottom-third{
   height: 1px;
   width: 20.48rem;
-  border-bottom: 4px solid $color-green;
+  border-bottom: 0.25rem solid $color-green;
   margin-left: 2.2rem;
 }
 

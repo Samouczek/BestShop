@@ -1,25 +1,25 @@
 
 footer{
   background-color: $color-light-grey;
-  box-shadow: 0 -5px 40px #00000029;
+  box-shadow: 0 -0.313rem 2.5rem #00000029;
 }
 
 .footer{
   display: flex;
   justify-content: space-between;
-  height: 89px;
+  height: 5.563rem;
   align-items: center;
 }
 
 
 .footer-logo{
   color: $color-primary;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-family: $font-raleway;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 1.875rem;
   text-align: left;
-  margin: 20px 0 5px 0 ;
+  margin: 1.25rem 0 0.313rem 0 ;
 }
 
 .footer-left-part{
@@ -29,10 +29,10 @@ footer{
 }
 .footer-left-part>p{
   color: $color-grey;
-  font-size: 11px;
+  font-size: 0.688rem;
   font-family: $font-open-sans;
   font-weight: 400;
-  line-height: 15px;
+  line-height: 0.938rem;
   text-align: left;
 }
 
@@ -42,5 +42,5 @@ footer{
 
 .twitter-icon,
 .facebook-icon{
-  margin: 10px;
+  margin: 0.625rem;
 }
