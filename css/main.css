@@ -674,7 +674,7 @@ body {
 .container {
   margin: 0 auto;
   width: 1352px;
-  padding: 0 15px;
+  padding: 0 0.938rem;
 }
 @media (max-width: 1352px) {
   .container {
