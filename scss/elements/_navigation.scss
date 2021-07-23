@@ -1,7 +1,64 @@
+@use "sass:color";
 
-.navigation{
+.nav{
+  display: flex;
   align-self: center;
   justify-self: center;
+  padding: 3rem 0;
+
+  .menu-btn{
+    appearance: none;
+    &:checked {
+      + .menu-icon {
+        right: calc(50% + 1rem);
+      }
+      ~ ul {
+        transform: none;
+      }
+    }
+  }
+  .menu-icon{
+    background-color: $color-white;
+    border-radius: 0.25rem;
+    color: $color-primary;
+    cursor: pointer;
+    opacity: 0.25;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    transition: 0.2s;
+    &:hover, &:active {
+      background-color: color.scale($color-white, $lightness: -30%);
+    }
+  }
+  ul{
+    background-color: $color-white;
+    height: 100%;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    li{
+      display: block;
+      font-weight: bold;
+      font-size: 0.75rem;
+      a{
+        display: inline-block;
+        text-decoration: none;
+        color: $color-grey;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top:  1rem;
+        line-height: 1rem;
+      }
+    }
+  }
+
+
 }
 ul.nav-menu{
   display: inline;
@@ -10,7 +67,7 @@ ul.nav-menu{
 li.nav-menu_item{
   list-style: none;
   font-size: 11px;
-  line-height: 15px;
+
   display: inline;
   white-space: nowrap;
   padding: 20px;
@@ -19,11 +76,6 @@ li.nav-menu_item{
 }
 
 .nav-menu_item>a{
-  text-decoration: none;
-  color: $color-grey;
-  text-transform: uppercase;
-  font-family: $font-open-sans;
-  font-weight: bold;
   padding: 28px 18px 22px;
 }
 
