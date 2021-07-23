@@ -3,17 +3,17 @@
 .pricing-content{
   display: flex;
   flex-direction: column;
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }
 
 .pricing-title{
   align-self: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 6.25rem;
+  margin-bottom: 3.125rem;
   font-weight: 400;
   font-family: $font-raleway;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
   color: $color-black;
 }
 
@@ -34,7 +34,7 @@
 
 .pricing-subtitle,
 .price_limited{
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   font-family: $font-raleway;
   font-weight: 700;
@@ -42,13 +42,13 @@
 }
 
 .price_limited{
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .parameter,
 .parameter-license,
 .parameter-support{
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
   font-family: $font-open-sans;
   font-weight: 400;
@@ -56,7 +56,7 @@
 }
 
 .price{
-  font-size: 46px;
+  font-size: 2.875rem;
   text-align: center;
   font-family: $font-open-sans;
   font-weight: 300;
@@ -74,35 +74,35 @@
 .pricing-content-professional,
 .pricing-content-basic,
 .pricing-content-premium{
-  border-radius: 18px;
-  width: 372px;
-  height: 461px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  border-radius: 1.125rem;
+  width: 23.438rem;
+  height: 28.813rem;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 .pricing-content-professional{
   border: 1px solid $color-primary;
-  box-shadow: 5px 10px 27px #07ACE629;
-  width: 405px;
-  height: 500px;
+  box-shadow: 0.313rem 0.625rem 1.688rem #07ACE629;
+  width: 25.313rem;
+  height: 31.25rem;
   margin: 0;
 }
 
 .pricing-content-basic{
   border: 1px solid $color-redish;
-  border-radius: 18px;
+  border-radius: 1.125rem;
 }
 
 .pricing-content-premium{
   border: 1px solid $color-green;
-  border-radius: 18px;
+  border-radius: 1.125rem;
 }
 
 .pricing-btn > a{
   text-align: center;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 0.813rem;
   font-family: $font-open-sans;
   font-weight: 700;
   color: $color-white;
@@ -110,30 +110,30 @@
 
 .pricing-btn{
   background-color: $color-redish;
-  width: 150px;
-  height: 50px;
-  border-radius: 23px;
+  width: 9.375rem;
+  height: 3.125rem;
+  border-radius: 1.438rem;
   border: 0;
   align-self: center;
   position: relative;
-  top: 50px;
+  top: 3.125rem;
 }
 
 .pricing-content-professional > .pricing-btn{
   background-color: $color-primary;
-  top:75px;
+  top: 4.688rem;
 }
 
 .pricing-content-premium > .pricing-btn{
   background-color: $color-green;
-  top: 40px;
+  top: 4.688rem;
 }
 
 .parameter::before,
 .parameter-license::before,
 .parameter-support::before{
   content: url("../../assets/Ckechmark-1.svg");
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 .pricing-content-basic > .parameter-license::before,
