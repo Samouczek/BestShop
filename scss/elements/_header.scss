@@ -7,16 +7,11 @@ header{
 .header{
   display: flex;
   justify-content: space-between;
-  height: 70px;
+  height: 1.875px;
 }
 
-
-.header-logo{
-  justify-self: flex-start;
-  align-self: center;
-  color: $color-primary;
-  font-size: 32px;
-  line-height: 37px;
-  font-family: $font-raleway;
-  font-weight: 300;
+@media (min-width: $breakpoint-xl) {
+  .header{
+    height: 4.375rem;
+  }
 }
