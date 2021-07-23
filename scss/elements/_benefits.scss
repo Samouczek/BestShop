@@ -19,12 +19,12 @@
   display: flex;
   justify-content: space-between;
   border-radius: 5px;
-  height: 370px;
+  height: 23.125rem;
 
 }
 
 .benefits-third-part{
-  margin-bottom: 105px;
+  margin-bottom: 6.563rem;
 }
 
 .benefits-first-part,
@@ -35,13 +35,14 @@
 }
 
 .benefits-first-part{
-  margin-top: 106px;
+  margin-top: 6.625rem;
 
 }
 
 .benefits-second-part{
-  margin-top: 37px;
-  margin-bottom: 37px;
+  margin-top: 2.313rem;
+  margin-bottom: 2.313rem;
+;
 }
 
 .benefit-photo-macbook{
@@ -123,8 +124,8 @@
   background-color: $color-green;
   border: 1px solid #E8E9ED;
   border-radius: 5px;
-  height: 370px;
-  width: 440px;
+  height: 23.125rem;
+  width: 27.5rem;
 }
 
 .benefits-content-third-part{
@@ -171,8 +172,8 @@
 
 .benefit-title{
   color: $color-black;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
   font-family: $font-raleway;
   font-weight: 400;
   width: 21.75rem;
@@ -181,8 +182,8 @@
 }
 
 .benefit-text{
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1rem;
+  line-height: 1.375rem;
   color: $color-black;
   font-family: $font-open-sans;
   font-weight: 400;
