@@ -4,12 +4,17 @@ const ordersInput = calcForm.querySelector("#orders");
 const packageInput = calcForm.querySelector("#package > div");
 const packageListInput = calcForm.querySelector("#package > ul");
 // const  arrowImg = calcForm.querySelector('div.select__input::after');
+const checkboxes = calcForm.querySelectorAll('.form__checkbox')
+const accountingInput = checkboxes[0];
+const terminalInput = checkboxes[1];
 
 const ulCalcSummary = document.querySelector(".calc__summary>ul")
 const productsOutput = ulCalcSummary.querySelector("li:first-child")
 const ordersOutput = ulCalcSummary.querySelector("li:nth-child(2)");
 const packageOutput = ulCalcSummary.querySelector("li:nth-child(3)");
-console.log(packageListInput.children);
+const accountingOutput = ulCalcSummary.querySelector("li:nth-child(4)")
+const terminalOutput = ulCalcSummary.querySelector("li:nth-child(5)");
+console.log(accountingInput);
 
 function Product(quantity){
     this.itemCalc = quantity + " * $0.5";
@@ -57,6 +62,14 @@ packageInput.addEventListener("click",function (event){
             packageOutput.children[1].innerText = selectedPackage.itemCalc[i];
             packageOutput.children[2].innerText = "$" + selectedPackage.itemPrice[i]
         });
-    };
+    }
 });
 
+
+accountingInput.addEventListener("click", function (event){
+    accountingInput.children[0].checked ? accountingOutput.style.display="flex" : accountingOutput.style.display="none";
+})
+
+terminalInput.addEventListener("click", function (event){
+    terminalInput.children[0].checked ? terminalOutput.style.display="flex" : terminalOutput.style.display="none";
+})
